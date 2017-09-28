@@ -1,0 +1,48 @@
+/* styles for the cities component */
+h1 {
+    color: #2a6c8f;
+}
+
+h2, p {
+    color: #49a2cc;
+}
+
+.cityRow {
+    background: green;
+}
+
+.forecast-icon {
+    margin-right: 15px;
+}
+
+.table>thead>tr>th {
+    font-size: 17px;
+    color: #e29c2c;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.forecast-info {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #6bcade;
+}
+
+.forecast-info-sec {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #aadae8;
+}
+
+.forecast-info-main {
+    font-size: 15px;
+    background-color: #49a2cc;
+}
+
+.forecast-info-main a {
+    color: #FFF;
+}

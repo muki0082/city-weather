@@ -1,0 +1,32 @@
+<!-- Template for the cities component -->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <img width="300" src="../assets/img/city.jpg">
+</div>
+<search></search>
+<div class="container">
+  <h2>City list</h2>
+  <p>Click on the city name to get extended forecast</p>            
+  <div>
+    <table id="citiesTable" class="table">
+      <thead>
+        <tr>
+          <th>City name</th>
+          <th>Average temperature (C)</th>
+          <th>Average wind strength (m/s)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let city of data.list">
+          <td class="forecast-info-main"><img src="http://openweathermap.org/img/w/{{city.weather[0].icon}}.png" class="forecast-icon" alt="forecast"><a [routerLink]="['/city', city.id]">{{city.name}}</a></td>
+          <td class="forecast-info">{{city.main.temp}}</td>
+          <td class="forecast-info-sec">{{city.wind.speed}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+

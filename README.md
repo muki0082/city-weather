@@ -26,3 +26,16 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## App structure ##
+
+-- There are 3 components in the app
+-- Main component is app component
+-- The list of cities is in the cities component
+-- Forecast data for a single city is in the city component
+-- Cities component is redirected to, from the root of the application
+-- The array of city IDs is fixed
+-- javascript gets the forecast data from the API, by city ID and creates rows for the html table
+-- javascript gets the 5 day forecast from the second API by city ID and creates the html table with the data
+-- GoBack button opens previoud component

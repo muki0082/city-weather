@@ -1,0 +1,60 @@
+/* styles for the citiy component */
+h1 {
+    color: #2a6c8f;
+}
+
+h2, p {
+    color: #47a3ca;
+}
+
+.forecast-icon {
+    margin-right: 15px;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.forecast-icon {
+    
+}
+
+.table>thead>tr>th {
+    font-size: 17px;
+    color: #e29c2c;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.forecast-info {
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.forecast-0 {
+    background-color: #af9e82;
+}
+
+.forecast-1 {
+    background-color: #b8a68a;
+}
+
+.forecast-2 {
+    background-color: #c4b193;
+}
+
+.forecast-3 {
+    background-color: #d0bd9e;
+}
+
+.forecast-4 {
+    background-color: #e0ccad;
+    text-align: left;
+}
+
+.forecast-5 {
+    background-color: #e2c9a2;
+}
