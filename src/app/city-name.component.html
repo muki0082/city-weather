@@ -6,7 +6,7 @@
   <p>Extended forecast for every 3 hours in the next 5 days</p>  
 </div>
 <div id="cityCont" class="container">
-    <button (click)="goBack()" class="btn btn-primary" style="float: right;">GoBack</button>
+    <button (click)="goBack()" class="btn btn-primary">GoBack</button>
     <h2 *ngIf="dataCity.city">
       <img src="https://openweathermap.org/img/w/{{dataCity.list[0].weather[0].icon}}.png" class="forecast-icon" alt="forecast">
       {{dataCity.list[0].weather[0].description}} in {{dataCity.city.name}}, {{dataCity.city.country}}
