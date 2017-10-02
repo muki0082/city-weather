@@ -20,7 +20,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let city of data.list">
-          <td class="forecast-info-main"><img src="http://openweathermap.org/img/w/{{city.weather[0].icon}}.png" class="forecast-icon" alt="forecast"><a [routerLink]="['/city', city.id]">{{city.name}}</a></td>
+          <td class="forecast-info-main"><img src="https://openweathermap.org/img/w/{{city.weather[0].icon}}.png" class="forecast-icon" alt="forecast"><a [routerLink]="['/city', city.id]">{{city.name}}</a></td>
           <td class="forecast-info">{{city.main.temp}}</td>
           <td class="forecast-info-sec">{{city.wind.speed}}</td>
         </tr>

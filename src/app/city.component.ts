@@ -31,7 +31,7 @@ export class CityComponent {
 
     getCityForecast(cityId) {
         console.log(cityId);
-        this.apiCityUrl = 'http://api.openweathermap.org/data/2.5/forecast?id=' + cityId + '&units=metric&appid=110ff02ed24ccd819801248373c3b208';
+        this.apiCityUrl = 'https://api.openweathermap.org/data/2.5/forecast?id=' + cityId + '&units=metric&appid=110ff02ed24ccd819801248373c3b208';
     }
 
     getCityData() {

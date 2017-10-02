@@ -14,7 +14,7 @@ import 'rxjs/add/operator/map';
 export class CitiesComponent {
   title = 'City Weather';
 
-  private apiUrl = 'http://api.openweathermap.org/data/2.5/group?id=3191281,2759794,2643743,6455259,2761369&units=metric&appid=110ff02ed24ccd819801248373c3b208';
+  private apiUrl = 'https://api.openweathermap.org/data/2.5/group?id=3191281,2759794,2643743,6455259,2761369&units=metric&appid=110ff02ed24ccd819801248373c3b208';
   data: any = {};
 
   constructor(private http: Http) {

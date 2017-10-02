@@ -14,7 +14,7 @@ export class SearchService {
     queryUrl: string = '?input=';
     endUrl: string = '&types=geocode&key=AIzaSyBVZG5wJkCc2VhaxrxAVBMPkqGPAxWouPg';*/
 
-    baseUrl: string = 'http://api.openweathermap.org/data/2.5/weather';
+    baseUrl: string = 'https://api.openweathermap.org/data/2.5/weather';
     queryUrl: string = '?q=';
     endUrl: string = '&units=metric&appid=110ff02ed24ccd819801248373c3b208';
 

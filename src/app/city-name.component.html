@@ -8,7 +8,7 @@
 <div id="cityCont" class="container">
     <button (click)="goBack()" class="btn btn-primary" style="float: right;">GoBack</button>
     <h2 *ngIf="dataCity.city">
-      <img src="http://openweathermap.org/img/w/{{dataCity.list[0].weather[0].icon}}.png" class="forecast-icon" alt="forecast">
+      <img src="https://openweathermap.org/img/w/{{dataCity.list[0].weather[0].icon}}.png" class="forecast-icon" alt="forecast">
       {{dataCity.list[0].weather[0].description}} in {{dataCity.city.name}}, {{dataCity.city.country}}
     </h2>         
     <div>
@@ -30,7 +30,7 @@
             <td class="forecast-info forecast-1">{{cityForecast.main.temp_min}}/{{cityForecast.main.temp_max}}</td>
             <td class="forecast-info forecast-2">{{cityForecast.main.pressure}}</td>
             <td class="forecast-info forecast-3">{{cityForecast.main.humidity}}</td>
-            <td class="forecast-info forecast-4"><img src="http://openweathermap.org/img/w/{{cityForecast.weather[0].icon}}.png" class="forecast-icon" alt="forecast"></td>
+            <td class="forecast-info forecast-4"><img src="https://openweathermap.org/img/w/{{cityForecast.weather[0].icon}}.png" class="forecast-icon" alt="forecast"></td>
             <td class="forecast-info forecast-4">{{cityForecast.weather[0].description}}</td>
             <td class="forecast-info forecast-5">{{cityForecast.wind.speed}}</td>
           </tr>
