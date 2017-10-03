@@ -21,14 +21,14 @@ Main features why I created this app:
 
 The app is hosted on GH pages: https://muki0082.github.io/city-weather/
 
-##Installation
+## Installation
 
 Assuming you have node, npm and git installed:
 
 1. In Git Bash:
-    $ git clone https://github.com/muki0082/city-weather.git city-weather
-    $ cd city-weather
-    $ npm install
+    - $ git clone https://github.com/muki0082/city-weather.git city-weather
+    - $ cd city-weather
+    - $ npm install
 
 2. Navigate to your city-weather folder in CMD
 
