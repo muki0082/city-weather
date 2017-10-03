@@ -1,41 +1,37 @@
 # CityWeather
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
+## A simple Angular 4 app, showing weather forecast in the cities
 
-## Development server
+![Alt text](src/assets/img/appPrintScreen.png?raw=true "App Printscreen")
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+"City weahter" is a simple weather forecast app, created in Angular 4. It displayes a list of predefined cities with main forecast information. By clicking on
+the city name, a page with extended forecast data is displayed. Also, there is a search input, to search extended forecast data for any city in the world.
 
-## Code scaffolding
+The forecast data is provided from openweathermap apis. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Main features why I created this app:
 
-## Build
+- Angular 4
+- Routing
+- Components
+- Search
+- Get data from an API
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## DEMO
 
-## Running unit tests
+The app is hosted on GH pages: https://muki0082.github.io/city-weather/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+##Installation
 
-## Running end-to-end tests
+Assuming you have node, npm and git installed:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+1. In Git Bash:
+    $ git clone https://github.com/muki0082/city-weather.git city-weather
+    $ cd city-weather
+    $ npm install
 
-## Further help
+2. Navigate to your city-weather folder in CMD
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. Start application by typing npm start
 
-
-## App structure ##
-
--- There are 3 components in the app
--- Main component is app component
--- The list of cities is in the cities component
--- Forecast data for a single city is in the city component
--- Cities component is redirected to, from the root of the application
--- The array of city IDs is fixed
--- javascript gets the forecast data from the API, by city ID and creates rows for the html table
--- javascript gets the 5 day forecast from the second API by city ID and creates the html table with the data
--- GoBack button opens previoud component
+4. Open http://localhost:4200/ in your browser.
