@@ -9,6 +9,8 @@ the city name, a page with extended forecast data is displayed. Also, there is a
 
 The forecast data is provided from openweathermap apis. 
 
+The app is responsive.
+
 Main features why I created this app:
 
 - Angular 4
